@@ -1,0 +1,30 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "A simple pokemon app to consume tcg api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElegantIguana/pokemon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElegantIguana/pokemon/issues"
+  },
+  "homepage": "https://github.com/ElegantIguana/pokemon#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mysql2": "^1.5.2",
+    "request": "^2.83.0",
+    "sequelize": "^4.33.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
+}
